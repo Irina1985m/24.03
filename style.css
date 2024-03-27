@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+.section{
+    display: flex;
+    min-width: 300px;
+    width: 100%;
+    max-width: 500px;
+    justify-content: space-around;
+    
+  
+}
+.art{
+display: flex;
+flex-direction: column;
+ margin: 0;
+ padding: 0.3em;
+border: 1px solid #aaa;
+width: 48%;
+border-radius:15px;
+}
+.art-img{
+    width: 30px;
+    border-radius:45px ;
+    background-color: rgb(4, 160, 11);
+    
+}
+.art-img-s{
+    width: 30px;
+    border-radius:45px ;
+    background-color: rgb(221, 65, 151);
+    
+}
+.name-green{
+margin-top: auto;
+align-self: flex-end;
+color: green;
+margin-bottom: 0;
+}
+.name-red{
+    margin-top: auto;
+    align-self: flex-end;
+    color: rgb(221, 65, 151);
+    margin-bottom: 0;
+    }
+.job{
+text-align: right;
+margin-bottom: 0;
+margin-top: 0.5em;
+}
+.work{
+align-self: flex-end;
+margin-top: 0em;
+color:black;
+font-weight: 900;
+}
+.img{
+    width: 15px;
+}
